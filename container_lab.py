@@ -15,3 +15,12 @@ foods = ('Burger', 'Nachos', 'Cereal', 'Sushi')
 
 for food in foods:
     print(f'{food} is a gooood food')
+
+
+# Exercise 3
+# Using a forloop, print just the last two food strings from foods.
+
+for i in range(-1,-3,-1):
+    print(f'{foods[i]}')
+
+    
